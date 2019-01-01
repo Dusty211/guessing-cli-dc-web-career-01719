@@ -7,6 +7,8 @@ def run_guessing_game
     input = gets.chomp
     if input == rand_num
       puts "You guessed the correct number!"
+    else
+      puts "The computer guessed #{rand_num}."
     #input = "d"
   end
   puts "Goodbye!"
