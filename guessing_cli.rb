@@ -6,4 +6,3 @@ def run_guessing_game
     input = "d"
   end
 end
-
